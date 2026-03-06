@@ -1,0 +1,16 @@
+# Fragile: 監視対象ファイルリスト
+# 監視したいファイルのパスを、1行ずつ記述してください
+# 相対パス、絶対パス、どちらも対応しています
+# このファイルを file_list.txt とリネームしてください
+# "#" から始まる行はコメントとして無視されます
+
+# Windows環境の例
+C:\Users\user\Documents\secret.txt
+.\config\settings.yaml
+
+# Linux / macOS環境の例
+/home/user/data/important.db
+./scripts/deploy.sh
+
+# 自身のソースコードを監視する場合
+fragile.py
